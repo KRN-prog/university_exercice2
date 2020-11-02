@@ -1,0 +1,328 @@
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.flex-container {
+   display: inline-flex;
+}
+.initial {
+  flex: initial;
+}
+
+.auto {
+  flex: auto;
+}
+
+.none {
+  flex: none;
+}
+
+.four {
+  flex: 4;
+}
+
+.two {
+  flex: 2;
+}
+
+.one {
+  flex: 1;
+}
+
+#flexHead{
+  width: 75rem;
+  padding: 15px;
+}.nav{
+  padding: 15px 10px 15px 0px;
+}#banner{
+  background-image: url('../img/banner.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60%;
+  width: auto;
+}#middlePage{
+  width: 700px;
+  position: absolute;
+  margin-top: -100px;
+  background: #fff;
+  margin-left: 25%;
+  margin-right: 25%;
+}#accueil-agenda{
+  margin-left: auto;
+  margin-right: auto;
+  width: 135px;
+  padding-top: 15px;
+}#agenda{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 25px;
+  width: 95px;
+}#txtAgenda{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 550px;
+  text-align: center;
+  font-size: 11px;
+}#formPage{
+  width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}.selectInput{
+  border: 1px solid #000;
+  padding: 7px 70px;
+  margin-right: 10px;
+}#submitForm{
+  border: 1px solid #a2243b;
+  background: #a2243b;
+  color: #fff;
+  padding: 10px 70px;
+}#resultatsBox{
+  width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 10px;
+}.redColor{
+  color: #a2243b;
+}.articleContainer{
+  margin-top: 15px;
+}.boxResults{
+  width: 223px;
+  margin-left: 5px;
+  border: 1px solid #4d4d4d;
+  float: left;
+  margin-bottom: 15px;
+}.categorieBox{
+  width: 205px;
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}.dateCategorie{
+  float: right;
+  color: #8c8c8c;
+}.evenementBox{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}.evenement{
+  margin-left: 10px;
+  margin-top: 10px;
+}.descriptionResults{
+  font-size: 8px;
+  width: 205px;
+  margin-left: auto;
+  margin-right: auto;
+}.btnContainerResults{
+  margin-left: 5px;
+  margin-bottom: 15px;
+}.btnResults{
+  font-size: 10px;
+  border: 1px solid #000;
+  padding: 3px 10px;
+  background: #000;color: #fff;
+}#multiplePageNav{
+  text-align: center;
+  margin-bottom: 50px;
+}#activeNav{
+  margin-top: 30px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background: #a2243b;
+  color: #fff;
+}.subNav{
+  margin-top: 30px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background: #959595;
+  color: #fff;
+}
+
+
+
+.Hover1:hover{
+  transition: 0.5s;
+  color: #a2243b;
+  cursor: pointer;
+}.Hover2:hover{
+  transition: 0.5s;
+  color: #a2243b;
+  cursor: pointer;
+}#submitForm:hover{
+  transition: 0.3s;
+  background: #da5870;
+  cursor: pointer;
+}.hoverInput1:hover{
+  transition: 0.3s;
+  background: #cccccc;
+  cursor: pointer;
+}.hoverInput2:hover{
+  transition: 0.3s;
+  background: #cccccc;
+  cursor: pointer;
+}
+
+#hoverBoxResult1{
+  transition: 0.3s;
+}#hoverBoxResult2{
+  transition: 0.3s;
+}#hoverBoxResult3{
+  transition: 0.3s;
+}#hoverBoxResult4{
+  transition: 0.3s;
+}#hoverBoxResult5{
+  transition: 0.3s;
+}#hoverBoxResult6{
+  transition: 0.3s;
+}#btnSuite1{
+  transition: 0.3s;
+}#btnSuite2{
+  transition: 0.3s;
+}#btnSuite3{
+  transition: 0.3s;
+}#btnSuite4{
+  transition: 0.3s;
+}#btnSuite5{
+  transition: 0.3s;
+}#btnSuite6{
+  transition: 0.3s;
+}
+
+
+#hoverBoxResult1:hover{
+  -webkit-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+}#hoverBoxResult2:hover{
+  -webkit-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+}#hoverBoxResult3:hover{
+  -webkit-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+}#hoverBoxResult4:hover{
+  -webkit-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+}#hoverBoxResult5:hover{
+  -webkit-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+}#hoverBoxResult6:hover{
+  -webkit-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.75);
+}#btnSuite1:hover{
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}#btnSuite2:hover{
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}#btnSuite3:hover{
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}#btnSuite4:hover{
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}#btnSuite5:hover{
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}#btnSuite6:hover{
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.HoverNav1{
+  transition: 0.3s;
+}.HoverNav2{
+  transition: 0.3s;
+}
+
+.HoverNav1:hover{
+  background: #d6435e;
+  cursor: pointer;
+}.HoverNav2:hover{
+  background: #d6435e;
+  cursor: pointer;
+}
+
+.a16:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.categorie1:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.categorie2:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.categorie3:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.categorie4:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.categorie5:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.categorie6:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.datecate1:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.datecate2:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.datecate3:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.datecate4:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.datecate5:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.datecate6:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.event1:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.event2:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.event3:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.event4:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.event5:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}.event6:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
